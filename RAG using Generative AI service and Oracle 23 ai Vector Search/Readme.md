@@ -20,7 +20,7 @@ Module 3 focuses on integrating OCI Generative AI Service with LangChain framewo
 
 ### LangChain Overview
 
-![LangChain Architecture](generated_image:23)
+![LangChain Architecture](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search/generated_image.png)
 
 **LangChain** is a framework for developing applications powered by language models, enabling context-aware applications that rely on language models to answer based on provided context.
 
@@ -118,7 +118,7 @@ llm = ChatOCIGenAI(
 
 ### RAG Pipeline Architecture
 
-![RAG Pipeline](chart:24)
+![RAG Pipeline](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search/rag_pipeline.png)
 
 The RAG pipeline consists of three main phases working together to provide contextual, accurate responses.
 
@@ -153,7 +153,7 @@ documents = loader.load()
 
 #### **Step 2: Document Chunking**
 
-![Chunking Strategy](chart:27)
+![Chunking Strategy](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search/chunking_process.png)
 
 **Chunking Considerations**:
 
@@ -198,7 +198,7 @@ chunks = text_splitter.split_text(text)
 
 #### **Step 3: Embedding Generation**
 
-![Vector Embeddings](generated_image:25)
+![Vector Embeddings](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search/generated_image_1.png)
 
 **Understanding Embeddings**:
 - **Purpose**: Convert text to numerical vectors capturing semantic meaning
@@ -223,7 +223,7 @@ embeddings = embed_model.embed_documents(chunks)
 
 #### **Step 4: Vector Storage and Indexing**
 
-![Oracle 23ai Vector Database](generated_image:26)
+![Oracle 23ai Vector Database](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search/generated_image_2.png)
 
 **Oracle 23ai Vector Capabilities**:
 - **Native Vector Data Type**: Built-in vector column support
@@ -323,7 +323,7 @@ LIMIT 5;
 
 ### Similarity Measures
 
-![Similarity Measures](chart:29)
+![Similarity Measures](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search/comparison_table.png)
 
 #### **1. Dot Product**
 - **Formula**: A · B = |A| × |B| × cos(θ)
@@ -514,7 +514,7 @@ response2 = conversation.predict(input="What is my name?")
 
 ### Conversational RAG Architecture
 
-![Chatbot Memory](generated_image:28)
+![Chatbot Memory](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search/generated_image_3.png)
 
 **Conversational Context**:
 - **Current Query**: User's immediate question
