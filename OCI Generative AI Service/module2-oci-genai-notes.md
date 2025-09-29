@@ -725,4 +725,5 @@ test_prompt = "Turn this message into a virtual assistant action"
 - RAG integration patterns
 - Performance optimization techniques
 
+
 This concludes the comprehensive coverage of Oracle's Generative AI Certification Module 2 on OCI Generative AI Service. The module provides both theoretical understanding and practical implementation skills necessary for deploying enterprise-grade generative AI solutions on Oracle Cloud Infrastructure.
