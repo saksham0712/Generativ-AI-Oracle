@@ -20,7 +20,7 @@ Module 2 focuses on Oracle Cloud Infrastructure (OCI) Generative AI Service - a 
 
 ### Service Overview
 
-![OCI Generative AI Architecture](generated_image:16)
+![OCI Generative AI Architecture](https://github.com/saksham0712/Generativ-AI-Oracle/blob/fa219c636dcfa4c058191f3f6d7782998410dd1e/OCI%20Generative%20AI%20Service/public/1.png)
 
 **OCI Generative AI Service** is a fully managed service providing customizable large language models via a single API for building generative AI applications.
 
@@ -161,7 +161,7 @@ Token Count: 15 tokens
 
 ### Chat Model Parameters
 
-![Temperature Parameter Effects](generated_image:21)
+![Temperature Parameter Effects](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/OCI%20Generative%20AI%20Service/public/6.png)
 
 #### **Maximum Output Tokens**
 - **Definition**: Maximum number of tokens model generates per response
@@ -214,7 +214,7 @@ Result: "Ahoy! Here be the answer ye seek, matey!"
 
 ### Fine-tuning Overview
 
-![Fine-tuning Workflow](chart:17)
+![Fine-tuning Workflow](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/OCI%20Generative%20AI%20Service/public/2.png)
 
 **Definition**: Optimizing a pre-trained foundational model on smaller, domain-specific datasets to create custom models tailored for specific tasks.
 
@@ -233,7 +233,7 @@ Result: "Ahoy! Here be the answer ye seek, matey!"
 
 ### T-Few Fine-tuning
 
-![T-Few Process](generated_image:20)
+![T-Few Process](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/OCI%20Generative%20AI%20Service/public/5.png)
 
 #### **Technology Overview**
 - **Method**: Parameter Efficient Fine-Tuning (PEFT)
@@ -289,7 +289,7 @@ Result: "Ahoy! Here be the answer ye seek, matey!"
 
 ### Architecture and Security
 
-![Dedicated AI Clusters](generated_image:18)
+![Dedicated AI Clusters](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/OCI%20Generative%20AI%20Service/public/3.png)
 
 #### **Core Concept**
 **Dedicated AI Clusters**: GPU-based compute resources that host customer fine-tuning and inference workloads in isolated environments.
@@ -302,7 +302,7 @@ Result: "Ahoy! Here be the answer ye seek, matey!"
 
 ### Cluster Types
 
-![Cluster Types Comparison](chart:19)
+![Cluster Types Comparison](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/OCI%20Generative%20AI%20Service/public/4.png)
 
 #### **1. Small Cohere Dedicated**
 - **Models Supported**: Command R Light, Command R 08-2024
