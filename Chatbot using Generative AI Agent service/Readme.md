@@ -20,7 +20,7 @@ Module 4 focuses on Oracle Generative AI Agents - a fully managed service that c
 
 ### What are AI Agents?
 
-![AI Agents Architecture](generated_image:31)
+![AI Agents Architecture](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/Chatbot%20using%20Generative%20AI%20Agent%20service/generated_image.png)
 
 **Oracle Generative AI Agents** is a fully managed service that combines large language models with intelligent retrieval systems to create contextually relevant answers by searching your knowledge base.
 
@@ -50,7 +50,7 @@ Module 4 focuses on Oracle Generative AI Agents - a fully managed service that c
 
 ### Agent Architecture Deep Dive
 
-![Agent Operations](generated_image:33)
+![Agent Operations](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/Chatbot%20using%20Generative%20AI%20Agent%20service/generated_image_1.png)
 
 #### **Core Components**
 
@@ -126,7 +126,7 @@ The LLM performs four key operations:
 
 ### Data Structure Hierarchy
 
-![Data Hierarchy](chart:32)
+![Data Hierarchy](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/Chatbot%20using%20Generative%20AI%20Agent%20service/ai_agent_hierarchy.png)
 
 The agent system uses a structured hierarchy to organize and access data:
 
@@ -251,7 +251,7 @@ Specific access point that enables agents to communicate with external systems o
 
 ### Data Store Comparison
 
-![Data Stores Comparison](chart:34)
+![Data Stores Comparison](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/Chatbot%20using%20Generative%20AI%20Agent%20service/comparison_table.png)
 
 Oracle Generative AI Agents supports three primary data store types, each with distinct characteristics and use cases.
 
@@ -306,7 +306,7 @@ Bring your own vector embeddings from Oracle Database 23ai or Autonomous Databas
 
 #### **Database Schema Requirements**
 
-![Oracle 23ai Schema](generated_image:35)
+![Oracle 23ai Schema](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/Chatbot%20using%20Generative%20AI%20Agent%20service/generated_image_2.png)
 
 **Required Table Structure**:
 ```sql
@@ -689,7 +689,7 @@ END;
 
 ### Complete Agent Workflow
 
-![Agent Creation Workflow](chart:37)
+![Agent Creation Workflow](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/Chatbot%20using%20Generative%20AI%20Agent%20service/agent_workflow.png)
 
 ### Step 1: Knowledge Base Configuration
 
@@ -844,7 +844,7 @@ Edge Cases:
 
 ### Chat Interface Features
 
-![Chat Interface](generated_image:36)
+![Chat Interface](https://github.com/saksham0712/Generativ-AI-Oracle/blob/main/Chatbot%20using%20Generative%20AI%20Agent%20service/generated_image_3.png)
 
 ### Core Interface Components
 
